@@ -1,0 +1,8 @@
+src/
+cdk/cdk.out/
+.env
+__pycache__/
+.DS_Store
+.venv/
+venv/
+*.log
