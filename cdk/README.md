@@ -126,7 +126,7 @@ The Lambda function supports these environment variables (set via CDK context):
 | `AUTO_CREATE_ISSUES` | `false` | Create new GitLab issues for unmatched entries |
 | `PREVENT_DUPLICATES` | `true` | Prevent duplicate time entries |
 | `MINIMUM_DURATION` | `300` | Minimum duration in seconds (5 minutes) |
-| `ROUND_TIME_TO_MINUTES` | `15` | Round time to nearest X minutes |
+| `ROUND_TIME_TO_MINUTES` | `1` | Round time to nearest X minutes |
 | `ONLY_BILLABLE` | `false` | Only sync billable time entries |
 | `EXCLUDE_WEEKENDS` | `false` | Skip weekend entries |
 | `LOG_LEVEL` | `INFO` | Logging level (DEBUG, INFO, WARNING, ERROR) |

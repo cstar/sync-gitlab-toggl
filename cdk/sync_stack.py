@@ -94,7 +94,7 @@ class TogglGitLabSyncStack(Stack):
             "AUTO_CREATE_ISSUES": self.node.try_get_context("auto_create_issues") or "false",
             "PREVENT_DUPLICATES": self.node.try_get_context("prevent_duplicates") or "true",
             "MINIMUM_DURATION": str(self.node.try_get_context("minimum_duration") or 300),
-            "ROUND_TIME_TO_MINUTES": str(self.node.try_get_context("round_time_to_minutes") or 15),
+            "ROUND_TIME_TO_MINUTES": str(self.node.try_get_context("round_time_to_minutes") or 1),
             "ONLY_BILLABLE": self.node.try_get_context("only_billable") or "false",
             "EXCLUDE_WEEKENDS": self.node.try_get_context("exclude_weekends") or "false",
             # GitLab configuration

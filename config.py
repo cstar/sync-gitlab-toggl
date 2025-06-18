@@ -25,7 +25,7 @@ class Config:
     DRY_RUN = os.getenv('DRY_RUN', 'true').lower() == 'true'  # Test mode
     AUTO_CREATE_ISSUES = os.getenv('AUTO_CREATE_ISSUES', 'true').lower() == 'true'  # Auto-create issues
     MINIMUM_DURATION = int(os.getenv('MINIMUM_DURATION', '300'))  # Minimum duration in seconds (5 minutes)
-    ROUND_TIME_TO_MINUTES = int(os.getenv('ROUND_TIME_TO_MINUTES', '15'))  # Round time to nearest X minutes
+    ROUND_TIME_TO_MINUTES = int(os.getenv('ROUND_TIME_TO_MINUTES', '1'))  # Round time to nearest X minutes
     
     # Issue creation rules
     MIN_DESCRIPTION_LENGTH = int(os.getenv('MIN_DESCRIPTION_LENGTH', '5'))

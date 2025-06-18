@@ -113,7 +113,7 @@ class LambdaConfig:
     
     @property
     def ROUND_TIME_TO_MINUTES(self):
-        return int(os.getenv('ROUND_TIME_TO_MINUTES', '15'))
+        return int(os.getenv('ROUND_TIME_TO_MINUTES', '1'))
     
     @property
     def ONLY_BILLABLE(self):

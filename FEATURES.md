@@ -47,7 +47,7 @@ DRY_RUN=true                    # Safe mode - no actual changes
 AUTO_CREATE_ISSUES=true         # Create issues automatically
 SYNC_DAYS_BACK=7               # How many days to look back
 MINIMUM_DURATION=300           # Min duration in seconds (5 minutes)
-ROUND_TIME_TO_MINUTES=15       # Round to nearest X minutes
+ROUND_TIME_TO_MINUTES=1        # Round to nearest X minutes
 
 # Filtering
 SYNC_ONLY_BILLABLE=false       # Only sync billable entries
